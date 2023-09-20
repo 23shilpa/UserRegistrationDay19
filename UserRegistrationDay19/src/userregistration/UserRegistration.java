@@ -8,8 +8,8 @@ public class UserRegistration {
     ArrayList<String> List = new ArrayList<>();
     public void firstName(){
         List.add("Shilpa");
-        List.add("Mrunali");
-        List.add("Tejashri");
+        List.add("mrunali");
+
         String regex = "[A-Z{1}][a-z]{3,7}";
         Pattern pattern = Pattern.compile(regex);
 
@@ -20,8 +20,8 @@ public class UserRegistration {
         }
     }
     public static void main(String[] args) {
-        UserRegistration regexDemo = new UserRegistration();
-        regexDemo.firstName();
+        UserRegistration UserRegistration = new UserRegistration();
+        UserRegistration.firstName();
 
     }
 }
